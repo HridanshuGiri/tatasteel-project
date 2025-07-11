@@ -1,0 +1,46 @@
+.about-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-page h1 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 1.5rem;
+}
+
+.about-page img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.overview img,
+.community .scenic img {
+  height: auto;
+  object-fit: cover;
+}
+
+.sustainability h2,
+.community h2 {
+  color: #003366;
+  margin-top: 2rem;
+}
+
+.scenic {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.scenic img {
+  flex: 1;
+  min-width: 200px;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}

@@ -1,0 +1,161 @@
+/* src/TataSteel.css */
+
+.tata-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  color: #003366;
+}
+
+.tata-container h1 {
+  text-align: center;
+  color: #0d47a1;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tata-container p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 3rem;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Ratan Tata Section */
+.leadership-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.leadership-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.ratan-tata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ratan-tata img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ratan-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.ratan-text h3 {
+  color: #0d47a1;
+  margin-bottom: 0.5rem;
+}
+
+.ratan-text p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Why Choose Section */
+.why-choose {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.why-choose h2 {
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.feature {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.feature h3 {
+  color: #005aa7;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  color: #555;
+}
+
+/* CTA Section */
+.cta {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #003366;
+  color: white;
+  border-radius: 10px;
+}
+
+.cta h2 {
+  margin-bottom: 0.5rem;
+}
+
+.cta p {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.cta-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c62828;
+}

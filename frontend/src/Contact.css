@@ -1,0 +1,116 @@
+.contact-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #003366;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #003366; 
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2,
+.contact-form h2 {
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.contact-info p {
+  line-height: 1.6;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.8rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005aa7;
+}
+
+.map-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.map-section h2 {
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.map-section iframe {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .map-section iframe {
+    height: 300px;
+  }
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #005aa7;
+  box-shadow: 0 0 5px rgba(0, 90, 167, 0.3);
+}
+
+button:active {
+  transform: scale(0.98);
+}
