@@ -16,9 +16,9 @@ app.get("/", (req, res) => {
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: '*'
+  origin: 'https://tatasteel-project-app.vercel.app',
+  credentials: true
 }));
-
   
 
 // MongoDB Connection
