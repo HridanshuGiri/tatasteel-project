@@ -13,7 +13,7 @@ function LoginSignup() {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:5000/signup", { email, password });
+      await axios.post("https://tatasteel-backend.onrender.com/signup", { email, password });
       alert('Signup successful');
       setEmail('');
       setPassword('');
