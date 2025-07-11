@@ -8,6 +8,10 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
+app.get("/", (req, res) => {
+  res.send("Tatasteel backend is running successfully!");
+});
+
 
 // Middleware
 app.use(express.json());
